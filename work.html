@@ -2,14 +2,15 @@
 <html>
    <style>
         body{
-            font-family: 'Frank Ruhl Libre', serif; 
-            background-color: #FFFAEA;
+            font-family: 'graphik'; 
+            color: $505050
+            background-color: #fffaea;
             min-width: 100%;
             min-height: 100%;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-            color: #212529;
+            margin: auto;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            max-height: max-content;
         }
         
         @font-face {
@@ -24,6 +25,28 @@
             font-family: 'Source Code Pro', monospace;
         }
       
+       #brunch {
+            display: block;
+            color: #505050;
+            font-family: 'graphik'; 
+            color: $505050
+            background-color: #fffaea;
+       }
+      
+        #menu {
+           display: flex;
+        }
+      
+        #h2 {
+             font-family: 'garamond';
+             font-size: 36pt;
+             font-weight: 400;
+             display: block;
+             margin-block-start: 0.83em;
+             margin-block-end: 0.83em;
+             margin-inline-start: 0px;
+             margin-inline-end: 0px;
+        }
 
         #work {
             width: 80%;
@@ -33,19 +56,42 @@
             font-family: 'Frank Ruhl Libre', serif; 
         }
 
-        #workplace {
+        #workplace, .workplace a {
             display:flex;
             width: 100%;
+            line-height: 20pt;
+            font-size: 10pt;
+            letter-spacing: -0.3px;
+            font-family: 'graphik bold';
+            text-transform: uppercase;
+            font-weight: 1000;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            transition: 0.25s;
+            margin-right: 0px;
+        }
+      
+        p{ 
+           display: block;
+           margin-block-start: 1em;
+           margin-block-end: 1em;
+           margin-inline-start: 0px;
+           margin-inline-end: 0px;
         }
       
         #work-wrapper{
            display:flex;
-            width: 100%;
+           width: 100%;
       }
      
        #home-container {
          font-family: 'graphik';
+         width: 700px;
      }
+      
+       #div {
+          display: block;
+       }
     </style>
   <head>
   </head>
